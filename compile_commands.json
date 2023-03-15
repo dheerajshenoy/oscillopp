@@ -1,0 +1,42 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-pipe",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-fPIC",
+      "-D_REENTRANT",
+      "-DQT_NO_DEBUG",
+      "-DQT_CHARTS_LIB",
+      "-DQT_OPENGLWIDGETS_LIB",
+      "-DQT_PRINTSUPPORT_LIB",
+      "-DQT_WIDGETS_LIB",
+      "-DQT_OPENGL_LIB",
+      "-DQT_GUI_LIB",
+      "-DQT_SERIALPORT_LIB",
+      "-DQT_CORE_LIB",
+      "-I.",
+      "-I.",
+      "-I/usr/include/qt6",
+      "-I/usr/include/qt6/QtCharts",
+      "-I/usr/include/qt6/QtOpenGLWidgets",
+      "-I/usr/include/qt6/QtPrintSupport",
+      "-I/usr/include/qt6/QtWidgets",
+      "-I/usr/include/qt6/QtOpenGL",
+      "-I/usr/include/qt6/QtGui",
+      "-I/usr/include/qt6/QtSerialPort",
+      "-I/usr/include/qt6/QtCore",
+      "-Ibuild/debug/.moc",
+      "-I/usr/lib/qt6/mkspecs/linux-g++",
+      "-o",
+      "build/debug/.obj/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/home/neo/Gits/Msc-Physics/Projects/C++/Oscillo",
+    "file": "/home/neo/Gits/Msc-Physics/Projects/C++/Oscillo/src/main.cpp",
+    "output": "/home/neo/Gits/Msc-Physics/Projects/C++/Oscillo/build/debug/.obj/main.o"
+  }
+]
